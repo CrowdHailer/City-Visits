@@ -1,0 +1,34 @@
+{
+  "name": "CityVisitor",
+  "version": "0.0.0",
+  "description": "A minimal app demostrating Onsen Ui",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/CrowdHailer/City-Visits.git"
+  },
+  "keywords": [
+    "CSS",
+    "framework",
+    "Onsen",
+    "Onsenui",
+    "Phonegap",
+    "cordova",
+    "gulp",
+    "svg"
+  ],
+  "author": "Peter Saxton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CrowdHailer/City-Visits/issues"
+  },
+  "homepage": "https://github.com/CrowdHailer/City-Visits",
+  "devDependencies": {
+    "require-dir": "^0.1.0",
+    "del": "^0.1.3",
+    "gulp": "^3.8.8"
+  }
+}
