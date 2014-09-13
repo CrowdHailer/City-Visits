@@ -12,4 +12,4 @@ gulp.task('copy', function () {
         .pipe(gulp.dest('www'));
 });
 
-gulp.task('build', ['clean', 'copy'])
+gulp.task('build', ['clean', 'copy', 'styles'])

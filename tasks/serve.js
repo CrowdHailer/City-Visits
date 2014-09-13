@@ -32,9 +32,9 @@ gulp.task('serve', function () {
 
     gulp.watch('www/*', notifyLivereload);
     // gulp.watch('app/js/*.js', ['scripts']);
-    // gulp.watch('app/scss/*.scss', ['styles']);
+    gulp.watch('app/scss/*.scss', ['styles']);
     // gulp.watch(['app/index.html', 'app/partials/*.html'], ['content']);
-    gulp.watch(['app/index.html'], ['build'])
+    gulp.watch(['app/index.html'], ['copy'])
 
     if (args.open) {
         open('http://localhost:' + port);
