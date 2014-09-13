@@ -1,1 +1,28 @@
 @import "pure";
+
+i {
+    svg {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.iconmelon,
+i {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  fill: #525151;
+  vertical-align: -40%;
+
+}
+.iconmelon:after,
+i:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

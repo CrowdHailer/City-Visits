@@ -34,7 +34,7 @@ gulp.task('serve', function () {
     // gulp.watch('app/js/*.js', ['scripts']);
     gulp.watch('app/scss/*.scss', ['styles']);
     // gulp.watch(['app/index.html', 'app/partials/*.html'], ['content']);
-    gulp.watch(['app/index.html'], ['copy'])
+    gulp.watch(['app/index.html'], ['content'])
 
     if (args.open) {
         open('http://localhost:' + port);

@@ -23,3 +23,9 @@ Runs **Clean** and **Copy**
 ### serve
 Serves the www dir with livereload
 *use --open* to open window
+
+### styles
+build SCAA
+
+### content
+Inject SVG
